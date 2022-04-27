@@ -36,4 +36,56 @@ body {
   width: 690px;
   background: #9a4dff18;
   border-radius: 5px;
+  backdrop-filter: blur(5px);
+}
+
+#img-poster {
+   border-radius: 5px;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.content-info {
+  margin-left: 30px;
+  margin-right: 29px;
+  margin-bottom: 20px;
+}
+
+#date {
+  font-size: 12px;
+  color: rgb(85, 78, 97);
+  margin-top: -100px;
+}
+
+#description {
+  margin-top: 25px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#director {
+  font-size: 12px;
+  color: rgb(85, 78, 97);
+}
+
+#buttons {
+  margin-top: 40px;
+  color: white;
+  background: #9a4dff18;
+  border: none;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  border-radius: 2.3px;
+}
+
+#buttons:hover {
+  background: #9a4dffbb;
+  color: #17171a;
+  font-weight: bold;
 }
