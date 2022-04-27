@@ -3,6 +3,9 @@ body {
   background: #17171a;
   font-family: consolas;
   color: white;
+  background-image: url("https://i.pinimg.com/originals/0c/cc/54/0ccc5445cb33d6266fe2146dc93f1edf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav2 {
@@ -10,6 +13,7 @@ body {
   justify-content: space-between;
   font-weight: normal;
   width: 300px;
+  margin-right: 25px;
 }
 
 #logo {
@@ -56,21 +60,24 @@ body {
   margin-bottom: 20px;
 }
 
+#title {
+  margin-bottom: -5px;
+}
+
 #date {
   font-size: 12px;
   color: rgb(85, 78, 97);
-  margin-top: -100px;
 }
 
 #description {
-  margin-top: 25px;
+  margin-top: 38px;
   font-size: 14px;
-  margin-bottom: 30px;
 }
 
 #director {
   font-size: 12px;
   color: rgb(85, 78, 97);
+  margin-bottom: 26px;
 }
 
 #buttons {
@@ -78,8 +85,8 @@ body {
   color: white;
   background: #9a4dff18;
   border: none;
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 37px;
   text-align: center;
   border-radius: 2.3px;
 }
@@ -99,3 +106,22 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+#play {
+  margin-top: 17px;
+  width: 350px;
+  height: 37px;
+  background: transparent;
+  border: 1px solid #5921f3;
+  color: white;
+}
+
+#play:hover {
+  color: #2e2584;
+  background: #5921f3;
+  box-shadow: 0 0 10px #5921f3, 0 0 40px #5921f3, 0 0 80px #5921f3;
+  border: none;
+  font-family: consolas;
+  font-weight: bolder;
+}
+

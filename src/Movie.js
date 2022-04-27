@@ -4,7 +4,7 @@ import Content from "./Content"
 export default function Movie(){
   return (
    
-    <div>
+    <div className="page">
         <div className="movie">
             <Content />
         </div>
