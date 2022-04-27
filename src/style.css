@@ -28,7 +28,7 @@ body {
 
 .movie {
   display: flex;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
@@ -85,7 +85,17 @@ body {
 }
 
 #buttons:hover {
-  background: #9a4dffbb;
-  color: #17171a;
-  font-weight: bold;
+  color: #2e2584;
+  background: #5921f3;
+  box-shadow: 0 0 10px #5921f3, 0 0 40px #5921f3, 0 0 80px #5921f3;
+  border: none;
+  font-family: consolas;
+  height: 37px;
+  width: 100px;
+  font-weight: bolder;
+}
+
+.next--back {
+  display: flex;
+  justify-content: space-around;
 }

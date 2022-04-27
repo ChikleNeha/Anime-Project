@@ -9,7 +9,7 @@ export default function Movie(){
             <Content />
         </div>
 
-        <div>
+        <div className="next--back">
           <button  id="buttons">Back</button>
           <button  id="buttons">Next</button>
         </div>
